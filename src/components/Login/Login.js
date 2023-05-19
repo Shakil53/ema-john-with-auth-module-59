@@ -15,9 +15,9 @@ const Login = () => {
                     <label htmlFor='password'>Password</label>
                     <input type='password' name='password' required></input>
                 </div>
-                <input className='btn-submit' type='submit' value="Login"></input>
+                <input className='btn-submit' type='submit' value="Login" required></input>
             </form>
-            <p><small>New to ema john <Link to='/signup'>Create a New Account</Link></small></p>
+            <p><small>New to ema john? <Link to='/signup'>Create a New Account</Link></small></p>
         </div>
     );
 };
